@@ -31,7 +31,7 @@ object Moviestore {
    * Immer wenn eine Funktion etwas zurück gibt, also keine Prozedur ist,
    * muss zwischen der Signatur und dem Rumpf ein Gleichheitszeichen stehen.
    */
-  private def nextMSerial: Int = {
+  private def nextMSerial: Serial = {
     mSerial += 1
     return mSerial
   }
