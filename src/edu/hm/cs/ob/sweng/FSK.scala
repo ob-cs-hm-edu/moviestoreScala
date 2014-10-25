@@ -23,6 +23,7 @@ object FSK extends Enumeration {
       case FSK0 => true
       case FSK6 => age >= 6
       case FSK12 => age >= 12
+      case FSK16 => age >= 16
       case FSK18 => age >= 18
       case _ => false
     }
