@@ -8,7 +8,7 @@ package edu.hm.cs.ob.sweng
  */
 class Client(name: String, ageVal: Int) {
   /* Die folgende Zeile macht gar keinen Sinn und muss gelöscht
-   * werden. Sie ist hier nur enthalten, damit alles ohne Fehler compiliert. 
+   * werden. Sie ist hier nur enthalten, damit alles ohne Fehler compiliert.
    */
   val age = 100
 }
